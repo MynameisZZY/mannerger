@@ -49,6 +49,7 @@ background: transparent;
     color: #333;
     text-align: center;
     line-height: 200px;
+    overflow: hidden;
     width:230px !important;
   }
   .el-main {
@@ -78,7 +79,7 @@ background: transparent;
 
   .el-submenu__title{
    background: url("../images/menuBG.png") repeat-x;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     border-radius: 10px 0px 0px 10px;
     height: 32px !important;
     line-height: 32px !important;
@@ -98,7 +99,12 @@ text-align: right;
   }
   .el-menu{
     background: transparent;
+    margin-bottom: 0px;
    
+  }
+  .el-menu-vertical-demo:last-child{
+   
+    height: 0px;
   }
 /* ------------------------------头部----------------------------------- */
 
