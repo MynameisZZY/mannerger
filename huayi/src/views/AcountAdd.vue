@@ -89,14 +89,14 @@
           rules: {
             //表单验证
             name: [
-              { min: 3, max: 5, message: "长度在 3 到 5 个字符", trigger: "blur" }
+              { min: 3, max: 18, message: "长度在 3 到 18 个字符", trigger: "blur" }
             ],
             pwd: [
-              { min: 3, max: 5, message: "长度在 3 到 5 个字符", trigger: "blur" }
+              { min: 3, max: 18, message: "长度在 3 到 18 个字符", trigger: "blur" }
             ],
             repwd: [
               { validator: validatePass2, trigger: "blur" },
-              { min: 3, max: 5, message: "长度在 3 到 5 个字符", trigger: "blur" }
+              { min: 3, max: 18, message: "长度在 3 到 18 个字符", trigger: "blur" }
             ],
             usergroup: [
               { required: true, message: "请选择活动区域", trigger: "change" }

@@ -5,6 +5,7 @@ import './plugins/element.js'
 import './assets/styles/public.css'
 import axios from 'axios'//引入axios
 import qs from 'qs'//引入qs
+import moment from 'moment'//引入时间搓
 
 Vue.prototype.axios=axios;
 // 把axios挂载到原型上
