@@ -1,0 +1,171 @@
+
+.el-aside{
+  background: url("../images/leftBG.png") repeat-y;
+
+
+}
+.el-submenu{
+  overflow: hidden;
+  width: 200px;
+  margin-left:29px;
+  
+}
+
+.el-menu-item{
+
+  margin-bottom:20px;
+  text-align: right;
+  padding-right: 50px !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  color: black !important;
+}
+
+
+.el-menu-vertical-demo{
+background: transparent;
+}
+.el-submenu__icon-arrow{
+  display: none;
+}
+
+.el-menu-item{
+  width: 230px;
+  height: 100%;
+  line-height:3px;
+  border-radius: 10px 0px 0px 10px;
+  background: rgb(126, 126, 126, 0.3);
+ 
+}
+ .el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+    width:230px !important;
+  }
+  .el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+
+  }
+  
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+  
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+  
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+  #container{
+    height: 100%;
+  }
+
+
+  .el-submenu__title{
+   background: url("../images/menuBG.png") repeat-x;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+    height: 32px !important;
+    line-height: 32px !important;
+   text-align: right;
+  }
+  #title h1,p,a{
+line-height: 30px;
+color: aliceblue;
+text-align: right;
+
+  }
+  #title h1{
+    font-size: 24px;
+  }
+  #title h1,p{
+    margin-right: 20px;
+  }
+  .el-menu{
+    background: transparent;
+   
+  }
+/* ------------------------------头部----------------------------------- */
+
+ 
+.el-header{
+  background:gainsboro;
+}
+#header{
+  text-align: left;
+}
+#header h1{
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+}
+#header span{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+}
+/* 卡片样式 */
+
+.el-card__header{
+height:50px;
+background:linear-gradient(#fff,#E9EEF3)
+}
+.el-main {
+  line-height: 16px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+
+
+.el-alert{
+margin-bottom: 10px;
+}
+
+/* 页尾样式 */
+#footer p{
+  color:grey;
+  text-align: left;
+}
+/* ------------------------------设置伸缩样式---------------------------------------------- */
+#mainContent{
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+#mainContent>*{
+  width: 100%;
+
+}
+#footer{
+ 
+}
+.el-main{
+  height:570px;
+}
+.el-header{
+  height: 146px;
+}
+
+.el-submenu .el-menu-item a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
