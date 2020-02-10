@@ -34,12 +34,25 @@
                   <el-option label="超级会员" value="超级会员"></el-option>
                 </el-select>
               </el-form-item>
+              <el-form-item label="选择用户组" prop="usergroup">
+                <el-select v-model="ruleForm.usergroup" placeholder="请选择用户级别">
+                  <el-option label="普通会员" value="普通会员"></el-option>
+                  <el-option label="超级会员" value="超级会员"></el-option>
+                </el-select>
+              </el-form-item>
+              <el-form-item label="选择用户组" prop="usergroup">
+                <el-select v-model="ruleForm.usergroup" placeholder="请选择用户级别">
+                  <el-option label="普通会员" value="普通会员"></el-option>
+                  <el-option label="超级会员" value="超级会员"></el-option>
+                </el-select>
+              </el-form-item>
 
               <el-form-item>
                 <el-button type="primary" @click="submitForm('ruleForm')">立即创建</el-button>
                 <el-button @click="resetForm('ruleForm')">重置</el-button>
               </el-form-item>
             </el-form>
+            <p>sdfsdfs fsdf dfsd gdf gdfg</p>
 
           </div>
         </el-card>
