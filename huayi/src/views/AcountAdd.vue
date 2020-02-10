@@ -120,6 +120,7 @@
       methods: {
         submitForm(formName) {
           this.$refs[formName].validate(valid => {
+            ///
             if (valid) {
               alert("提交成功");
               //这里使用axios发送一个post请求
